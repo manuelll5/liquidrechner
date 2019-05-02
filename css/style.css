@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*CSS Dokument*/
+
+/*########################## HTML TAG #################################*/
+body, html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow-x: auto;
+  font-family: monospace;
+}
+/*########################## Allgemein #################################*/
+/* TODO: Muss noch auf das Progarmm angepasst werden */
+:root{
+	--colorBlue:			#2b78e4;
+	--colorBlueText:	#f2f2f2;
+	--colorDarkGray:	#989898;
+	--colorLightGray:	#c8c8c8;
+	--m4u_color:			#860008;
+	--m4u_colorText:	#ffffff;
+	--black:					#000000;
+}
+
+.colorRed{
+		color: red;
+}
+
+.colorBlue {
+	background-color: var(--colorBlue);
+	color: var(--colorBlueText);
+}
+/*########################## Input #################################*/
+input{
+  width: 75%;
+  height: 30px;
+
+  font-size: 15px;
+
+  outline: none;
+}
