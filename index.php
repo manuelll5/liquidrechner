@@ -8,6 +8,5 @@
   </head>
   <body>
     <?php include "liquidrechner.php"; ?>
-    test 
   </body>
 </html>
